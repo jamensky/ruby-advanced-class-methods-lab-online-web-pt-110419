@@ -61,7 +61,7 @@
       return new_song
     end
 
-    def self.create_from_filename
+    def self.create_from_filename(file_name)
 
     end
 
