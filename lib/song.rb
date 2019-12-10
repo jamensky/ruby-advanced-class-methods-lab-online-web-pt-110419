@@ -44,7 +44,7 @@
 
     def self.new_from_filename(file_name)
 
-      split_info = file_name.gsub(".", " -").split("-")
+      split_info = file_name.gsub(".", "-").split("-")
       artist_name = split_info[0]
       song_name = split_info[1]
 
