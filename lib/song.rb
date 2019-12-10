@@ -48,7 +48,7 @@
       artist_name = split_info[0]
       song_name = split_info[1]
 
-      new_song = self.create_by_name(song_name.strip)
+      new_song = self.new_by_name(song_name.strip)
 binding.pry
        return new_song
 
