@@ -46,7 +46,7 @@
 
       split_info = file_name.gsub(".", "-").split("-")
       artist_name = split_info[0]
-      song_name = split_info[1].strip
+      song_name = split_info[1]
 
       new_song = self.create_by_name(song_name)
 #binding.pry
