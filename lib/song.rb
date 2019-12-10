@@ -59,7 +59,6 @@
       new_song = self.new_by_name(song_name.strip)
       new_song.artist_name = artist_name.strip
       return new_song
-
-    end
+   end
 
 end
