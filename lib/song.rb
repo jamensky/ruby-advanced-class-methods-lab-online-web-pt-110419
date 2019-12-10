@@ -49,7 +49,7 @@
       song_name = split_info[1]
 
       new_song = self.create_by_name(song_name.strip)
-#binding.pry
+binding.pry
        return new_song
 
    end
