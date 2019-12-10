@@ -60,11 +60,11 @@
       new_song.artist_name = artist_name.strip
       return new_song
     end
-    
+
 
     def self.create_from_filename(file_name)
       new_song = self.new_from_filename(file_name)
-      
+
 
     end
 
