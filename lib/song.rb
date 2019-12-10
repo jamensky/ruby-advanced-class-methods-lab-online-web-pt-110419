@@ -44,11 +44,11 @@
 
     def self.new_from_filename(file_name)
 
-      split_info = file_name.gsub(".", "-").split("-").each{|x| x.split}
+      split_info = file_name.gsub(".", "-").split("-")
       artist_name = split_info[0]
       song_name = split_info[1]
 
-      new_song = self.create_by_name(song_name.split)
+      new_song = self.create_by_name(song_name)
 #binding.pry
        return new_song
 
